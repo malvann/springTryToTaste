@@ -11,6 +11,7 @@
     <modules>
         <module>withXMLandAnnotations</module>
         <module>withAnnotations</module>
+        <module>withAOP</module>
     </modules>
 
     <properties>
@@ -29,7 +30,7 @@
             <artifactId>spring-context</artifactId>
             <version>5.2.7.RELEASE</version>
         </dependency>
-<!--        In simple way u can see log-->
+<!--        & also u can see log-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

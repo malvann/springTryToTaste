@@ -1,0 +1,12 @@
+package com.spring.aop.withXML.advice;
+
+import org.springframework.aop.AfterReturningAdvice;
+
+import java.lang.reflect.Method;
+
+public class AfterMethodAdvice implements AfterReturningAdvice {
+    @Override
+    public void afterReturning(Object o, Method method, Object[] objects, Object o1) throws Throwable {
+        System.out.println(AfterMethodAdvice.class.getSimpleName() + ": Before method run.");
+    }
+}
