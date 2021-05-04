@@ -1,7 +1,6 @@
 package com.spring.application.beanInjection;
 
 import com.spring.application.beanInjection.college.ExtraCollege;
-import com.spring.application.componentInjection.CollegeConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
