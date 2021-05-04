@@ -12,6 +12,7 @@
         <module>withXMLandAnnotations</module>
         <module>withAnnotations</module>
         <module>withAOP</module>
+        <module>withSpringBoot</module>
     </modules>
 
     <properties>
