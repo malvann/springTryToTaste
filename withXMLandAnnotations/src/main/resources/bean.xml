@@ -7,7 +7,13 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-<!--    <bean id="collegeBean" class="com.spring.application.college.College"/>-->
-    <context:component-scan base-package="com.spring.application.college"/>
+<!--    <context:component-scan base-package="com.spring.application.college"/>-->
+    <bean id="collegeBean" class="com.spring.application.college.College"
+          init-method="collegeInit" destroy-method="collegeDestroy">
+        <property name="name" value="John"/>
+        <property name="address" value="PL, Gdansk, 102-6254"/>
+        <constructor-arg ref="infoMessageBean"/>
+    </bean>
+    <bean id="infoMessageBean" class="com.spring.application.parts.InfoMessage"/>
 
 </beans>
