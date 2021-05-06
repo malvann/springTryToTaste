@@ -13,6 +13,7 @@
         <module>withAnnotations</module>
         <module>withAOP</module>
         <module>withSpringBoot</module>
+        <module>withBorisov</module>
     </modules>
 
     <properties>
