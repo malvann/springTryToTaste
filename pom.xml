@@ -14,6 +14,7 @@
         <module>withAOP</module>
         <module>withSpringBoot</module>
         <module>withBorisovCustomSpring</module>
+        <module>withBorisovRipper</module>
     </modules>
 
     <properties>
@@ -37,6 +38,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
             <version>2.3.1.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
         </dependency>
     </dependencies>
 </project>

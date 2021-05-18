@@ -8,6 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 
 public class App {
+
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
 //        U can also use BeanFactory that has less features (f.e. enterprise-specific) & use less memory.
