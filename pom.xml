@@ -15,6 +15,7 @@
         <module>withSpringBoot</module>
         <module>withBorisovCustomSpring</module>
         <module>withBorisovRipper</module>
+        <module>withConditionAnnotation</module>
     </modules>
 
     <properties>
