@@ -4,10 +4,10 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Service;
 
 @Service
-@ConditionalOnProperty(value = "college.smt", havingValue = "foo")
+@ConditionalOnProperty(value = "flag", havingValue = "foo")
 public class Flag1 implements FlagService{
     @Override
     public void printname() {
-        System.out.println("FlagServiceImpl-1");
+        System.out.println("foo flag");
     }
 }
