@@ -16,6 +16,7 @@
         <module>withBorisovCustomSpring</module>
         <module>withBorisovRipper</module>
         <module>withConditionAnnotation</module>
+        <module>conditionAnnotations</module>
     </modules>
 
     <properties>
@@ -45,6 +46,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+            <version>2.6.1</version>
         </dependency>
     </dependencies>
 </project>
