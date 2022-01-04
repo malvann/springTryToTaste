@@ -1,7 +1,5 @@
 package com.spring.aop.withAnnotations;
 
-import org.springframework.stereotype.Component;
-
 public class Operation {
     public void msg(){
         System.out.println("msg method invoked.");
