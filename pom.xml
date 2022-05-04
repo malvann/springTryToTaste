@@ -12,11 +12,11 @@
         <module>withXMLandAnnotations</module>
         <module>withAnnotations</module>
         <module>withAOP</module>
-        <module>withSpringBoot</module>
         <module>withBorisovCustomSpring</module>
         <module>withBorisovRipper</module>
         <module>withConditionAnnotation</module>
         <module>baeldungRESTapiWithSpring</module>
+        <module>simpleRestRepository</module>
     </modules>
 
     <properties>
