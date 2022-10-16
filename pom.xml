@@ -17,10 +17,19 @@
         <module>withConditionAnnotation</module>
         <module>baeldungRESTapiWithSpring</module>
         <module>simpleRestRepository</module>
+        <module>withAsync</module>
     </modules>
 
     <properties>
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+    </dependencies>
 </project>
